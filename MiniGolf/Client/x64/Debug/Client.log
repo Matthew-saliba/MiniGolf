@@ -1,0 +1,27 @@
+﻿  Game.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(506,82): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(506,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(506,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(506,82): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(506,82): warning C4244:         ]
+  (compiling source file 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xutility(506,82):
+      the template instantiation context (the oldest one first) is
+          C:\Users\matth\Documents\Raylib Games\MiniGolf\Client\Game.cpp(16,14):
+          see reference to function template instantiation 'std::shared_ptr<Box> std::make_shared<Box,std::shared_ptr<b2World>&,Vector2,int,int,b2BodyType,int,Color,int,int,int,int,int>(std::shared_ptr<b2World> &,Vector2 &&,int &&,int &&,b2BodyType &&,int &&,Color &&,int &&,int &&,int &&,int &&,int &&)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(2903,46):
+          see reference to function template instantiation 'std::_Ref_count_obj2<Box>::_Ref_count_obj2<std::shared_ptr<b2World>&,_Ty,int,int,b2BodyType,int,Color,int,int,int,int,int>(std::shared_ptr<b2World> &,_Ty &&,int &&,int &&,b2BodyType &&,int &&,Color &&,int &&,int &&,int &&,int &&,int &&)' being compiled
+          with
+          [
+              _Ty=Vector2
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(2092,18):
+          see reference to function template instantiation 'void std::_Construct_in_place<_Ty,std::shared_ptr<b2World>&,Vector2,int,int,b2BodyType,int,Color,int,int,int,int,int>(_Ty &,std::shared_ptr<b2World> &,Vector2 &&,int &&,int &&,b2BodyType &&,int &&,Color &&,int &&,int &&,int &&,int &&,int &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Box
+          ]
+  
+  main.cpp
+  Generating Code...
+  Client.vcxproj -> C:\Users\matth\Documents\Raylib Games\MiniGolf\x64\Debug\Client.exe
