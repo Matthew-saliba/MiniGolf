@@ -1,0 +1,9 @@
+# Force C files to be detected as C++
+   *.c linguist-language=C++
+   *.h linguist-language=C++
+
+   # Ensure C++ files are counted
+   *.cpp linguist-detectable=true
+   *.hpp linguist-detectable=true
+   *.cc linguist-detectable=true
+   *.cxx linguist-detectable=true
